@@ -1,0 +1,23 @@
+{
+  "name": "airdrop-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "csv-parse": "^5.0.4",
+    "csv-stringify": "^6.0.5",
+    "dotenv": "^16.0.0",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "stellar-sdk": "^10.0.1"
+  }
+}
